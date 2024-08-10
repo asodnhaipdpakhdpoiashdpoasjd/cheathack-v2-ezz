@@ -136,6 +136,8 @@ void c_visuals::draw_indicators() {
 			}
 		}
 
+		// this is pasted from travishook 
+
 		if (config->m_seed_pred.m_draw_indicator) {
 			std::string text = "";
 			int textHeight = 20;
