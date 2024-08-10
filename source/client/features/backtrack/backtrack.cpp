@@ -1,6 +1,8 @@
 #include "backtrack.h"
 #include <algorithm>
 
+// this shit is still broken but if someone fixes it and sends it to me ill add it... maybe
+
 bool c_backtrack::is_tick_valid(float simulation_time)
 {
 	// https://github.com/sr2echa/TF2-Source-Code/blob/c61d9750613a088617fa183a56708becfd38b81a/tf2_src/game/server/player_lagcompensation.cpp#L382
