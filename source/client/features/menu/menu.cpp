@@ -11,10 +11,10 @@
 	// pasted from travishook
 
 void c_menu::render_watermark() {
-	render->outlined_text(20, 45, ALIGN_DEFAULT, ctx->m_tahoma_narrow.m_font, config->m_colors.m_ui_blue, L"Cheathack Dev Build (X32)");
-	render->outlined_text(20, 35, ALIGN_DEFAULT, ctx->m_tahoma_narrow.m_font, config->m_colors.m_ui_yellow, L"Do not redistribute this.");
-	render->outlined_text(20, 25, ALIGN_DEFAULT, ctx->m_tahoma_narrow.m_font, config->m_colors.m_ui_yellow, L"User : Reality ");
-	render->outlined_text(20, 55, ALIGN_DEFAULT, ctx->m_tahoma_narrow.m_font, config->m_colors.m_ui_yellow, L"i dont have a vpn");
+	render->outlined_text(20, 45, ALIGN_DEFAULT, ctx->m_tahoma_narrow.m_font, config->m_colors.m_ui_blue, L"Cheathack Dev Build (X32) THE X64 BUILD BROKE!!!");
+	render->outlined_text(20, 35, ALIGN_DEFAULT, ctx->m_tahoma_narrow.m_font, config->m_colors.m_ui_yellow, L"Redistribute this.");
+	render->outlined_text(20, 25, ALIGN_DEFAULT, ctx->m_tahoma_narrow.m_font, config->m_colors.m_ui_yellow, L"User : Arthur Morgan "); //$$$
+	render->outlined_text(20, 55, ALIGN_DEFAULT, ctx->m_tahoma_narrow.m_font, config->m_colors.m_ui_yellow, L"IM A NIGGER!");
 }
 
 void c_menu::press_sound() {
@@ -1409,7 +1409,7 @@ void c_menu::run() {
 		static std::string name = "";
 
 		if (name.empty()) {
-			name = "Cheathack for Team Fortress 2        DEV       USER: LD";
+			name = "Chethak ";
 			name += ctx->m_user_name;
 		}
 
